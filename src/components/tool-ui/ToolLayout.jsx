@@ -9,16 +9,16 @@ import { getIcon } from "@/lib/icon-map";
 
 const toolComponents = {
   // JSON Tools
-  "json-formatter":       lazy(() => import("@/tools/json/JsonFormatter")),
-  "json-validator":       lazy(() => import("@/tools/json/JsonValidator")),
-  "json-minifier":        lazy(() => import("@/tools/json/JsonMinifier")),
-  "json-pretty-print":    lazy(() => import("@/tools/json/JsonPrettyPrint")),
-  "json-to-csv":          lazy(() => import("@/tools/json/JsonToCsv")),
-  "csv-to-json":          lazy(() => import("@/tools/json/CsvToJson")),
-  "json-to-xml":          lazy(() => import("@/tools/json/JsonToXml")),
-  "xml-to-json":          lazy(() => import("@/tools/json/XmlToJson")),
-  "json-diff-checker":    lazy(() => import("@/tools/json/JsonDiffChecker")),
-  "json-tree-viewer":     lazy(() => import("@/tools/json/JsonTreeViewer")),
+  "json-formatter":       lazy(() => import("@/tools/json/jsonFormatter")),
+  "json-validator":       lazy(() => import("@/tools/json/jsonValidator")),
+  "json-minifier":        lazy(() => import("@/tools/json/jsonMinifier")),
+  "json-pretty-print":    lazy(() => import("@/tools/json/jsonPrettyPrint")),
+  "json-to-csv":          lazy(() => import("@/tools/json/jsonToCsv")),
+  "csv-to-json":          lazy(() => import("@/tools/json/csvToJson")),
+  "json-to-xml":          lazy(() => import("@/tools/json/jsonToXml")),
+  "xml-to-json":          lazy(() => import("@/tools/json/xmlToJson")),
+  "json-diff-checker":    lazy(() => import("@/tools/json/jsonDiffChecker")),
+  "json-tree-viewer":     lazy(() => import("@/tools/json/jsonTreeViewer")),
 
   // Encoding
   "base64-encode-decode":    lazy(() => import("@/tools/encoding/base64EncodeDecode")),
