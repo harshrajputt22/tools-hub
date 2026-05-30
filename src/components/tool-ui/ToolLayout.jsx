@@ -96,13 +96,13 @@ const toolComponents = {
   "pdf-to-excel": lazy(() => import("@/tools/document-conversion/pdfToExcel")),
 
   // Misc
-  "lorem-ipsum-generator":   lazy(() => import("@/tools/misc/LoremIpsumGenerator")),
-  "random-string-generator": lazy(() => import("@/tools/misc/RandomStringGenerator")),
-  "random-color-generator":  lazy(() => import("@/tools/misc/RandomColorGenerator")),
-  "color-code-converter":    lazy(() => import("@/tools/misc/ColorCodeConverter")),
-  "favicon-generator":       lazy(() => import("@/tools/misc/FaviconGenerator")),
-  "url-parser":              lazy(() => import("@/tools/misc/UrlParser")),
-  "sql-query-generator":     lazy(() => import("@/tools/misc/SqlQueryGenerator")),
+  "lorem-ipsum-generator":   lazy(() => import("@/tools/misc/loremIpsumGenerator")),
+  "random-string-generator": lazy(() => import("@/tools/misc/randomStringGenerator")),
+  "random-color-generator":  lazy(() => import("@/tools/misc/randomColorGenerator")),
+  "color-code-converter":    lazy(() => import("@/tools/misc/colorCodeConverter")),
+  "favicon-generator":       lazy(() => import("@/tools/misc/faviconGenerator")),
+  "url-parser":              lazy(() => import("@/tools/misc/urlParser")),
+  "sql-query-generator":     lazy(() => import("@/tools/misc/sqlQueryGenerator")),
 };
 
 // ============================================================
